@@ -17,6 +17,7 @@
 		88FB9EC12C37020E00273359 /* WebView_Sample_Objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FB9EC02C37020E00273359 /* WebView_Sample_Objective_CTests.m */; };
 		88FB9ECB2C37020E00273359 /* WebView_Sample_Objective_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FB9ECA2C37020E00273359 /* WebView_Sample_Objective_CUITests.m */; };
 		88FB9ECD2C37020E00273359 /* WebView_Sample_Objective_CUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FB9ECC2C37020E00273359 /* WebView_Sample_Objective_CUITestsLaunchTests.m */; };
+		88FB9EDC2C3702DC00273359 /* MainWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FB9EDB2C3702DC00273359 /* MainWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		88FB9EC62C37020E00273359 /* WebView_Sample_Objective-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WebView_Sample_Objective-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FB9ECA2C37020E00273359 /* WebView_Sample_Objective_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebView_Sample_Objective_CUITests.m; sourceTree = "<group>"; };
 		88FB9ECC2C37020E00273359 /* WebView_Sample_Objective_CUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebView_Sample_Objective_CUITestsLaunchTests.m; sourceTree = "<group>"; };
+		88FB9EDA2C3702DC00273359 /* MainWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWebViewController.h; sourceTree = "<group>"; };
+		88FB9EDB2C3702DC00273359 /* MainWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		88FB9EA32C37020C00273359 /* WebView_Sample_Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				88FB9ED92C3702B400273359 /* WebView */,
 				88FB9EA42C37020C00273359 /* AppDelegate.h */,
 				88FB9EA52C37020C00273359 /* AppDelegate.m */,
 				88FB9EA72C37020C00273359 /* SceneDelegate.h */,
@@ -134,6 +138,15 @@
 				88FB9ECC2C37020E00273359 /* WebView_Sample_Objective_CUITestsLaunchTests.m */,
 			);
 			path = "WebView_Sample_Objective-CUITests";
+			sourceTree = "<group>";
+		};
+		88FB9ED92C3702B400273359 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				88FB9EDA2C3702DC00273359 /* MainWebViewController.h */,
+				88FB9EDB2C3702DC00273359 /* MainWebViewController.m */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 				88FB9EA62C37020C00273359 /* AppDelegate.m in Sources */,
 				88FB9EB72C37020E00273359 /* main.m in Sources */,
 				88FB9EA92C37020C00273359 /* SceneDelegate.m in Sources */,
+				88FB9EDC2C3702DC00273359 /* MainWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
